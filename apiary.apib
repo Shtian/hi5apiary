@@ -17,3 +17,12 @@ GET /rooms
 {"id": 1, "name": "Together"}, {"id": 2, "name": "Create"}, {"id": 3, "name": "Engage"}, {"id": 4, "name": "Challenge"}, {"id": 5, "name": "Grow"}, {"id": 6, "name": "Talent"}, {"id": 7, "name": "Mezzanine"}
 ] }
 
+List all timeslots
+GET /presentations
+< 200
+< Content-Type: application/json
+{ [
+{"speaker": "Stian", "presentation_name": "The awsomeness"},
+{"speaker": "Torbjørn", "presentation_name": "The kickassness"},
+{"speaker": "Cato", "presentation_name": "The groovyness"}
+] }
